@@ -22,5 +22,13 @@ function infnorm(vec_::AbstractVector{<:Number})
     return 0;
 end
 
+function firstnorm(vec_::AbstractMatrix{<:Number})
+    return 0;
+end
+
+function infnorm(vec_::AbstractMatrix{<:Number})
+    return 0;
+end
+
 
 end
