@@ -3,5 +3,8 @@ uuid = "089fb86a-8df5-4bdd-a9a2-3362879356b8"
 authors = ["Michael Kuts"]
 version = "0.1.0"
 
+[deps]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+
 [compat]
 julia = "1"
