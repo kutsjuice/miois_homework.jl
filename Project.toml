@@ -1,0 +1,7 @@
+name = "miois_homework"
+uuid = "089fb86a-8df5-4bdd-a9a2-3362879356b8"
+authors = ["Michael Kuts"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
