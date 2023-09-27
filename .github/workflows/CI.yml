@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - main
-      - solved
     tags: ['*']
   pull_request:
 concurrency:
