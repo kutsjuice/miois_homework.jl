@@ -32,3 +32,16 @@ end
     @test chesscolor(['h',2], ['b',7]) == false;
     @test chesscolor(['h',5], ['c',5]) == false;    
 end
+
+@tetset "isleap" begin
+    @test isleap(2023) == false;
+    @test isleap(1904) == true;
+    @test isleap(1900) == false;
+    @test isleap(1952) == true;
+    @test isleap(1700) == false;
+    @test isleap(1600) == true;
+    @test isleap(2000) == true;
+    @test isleap(2019) == false;
+    @test isleap(1800) == false;
+
+end
