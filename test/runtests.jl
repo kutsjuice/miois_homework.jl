@@ -23,3 +23,12 @@ end
     @test firstnorm(b) == LA.opnorm(b, 1);
     @test infnorm(b) == LA.opnorm(b, Inf);
 end
+
+@testset "chesscolor" begin
+    @test chesscolor(['a',1], ['b',2]) == true;
+    @test chesscolor(['c',3], ['c',1]) == true;
+    @test chesscolor(['f',7], ['c',8]) == true;
+    @test chesscolor(['b',1], ['b',2]) == false;
+    @test chesscolor(['h',2], ['b',7]) == false;
+    @test chesscolor(['h',5], ['c',5]) == false;    
+end
