@@ -30,5 +30,12 @@ function infnorm(vec_::AbstractMatrix{<:Number})
     return 0;
 end
 
+function isleap(year)
+    return "leap";
+end
+
+function chesscolor(cell1, cell2)
+    return false;
+end
 
 end
